@@ -1,23 +1,44 @@
 {
-  "name": "template-solidjs-library",
+  "name": "@dschz/solid-tradingview-widgets",
   "version": "0.0.0",
-  "description": "Template for SolidJS library using tsup for bundling. Configured with Bun, NVM, TypeScript, ESLint, Prettier, Vitest, and GHA",
+  "description": "SolidJS bindings for TradingView Widgets — ready-to-use financial tools you can embed into your website to display market data.",
   "type": "module",
   "author": "Daniel Sanchez <dsanc89@icloud.com>",
   "license": "MIT",
-  "homepage": "https://github.com/thedanchez/template-solidjs-library#readme",
+  "homepage": "https://github.com/dsnchz/solid-tradingview-widgets#readme",
   "repository": {
     "type": "git",
-    "url": "https://github.com/thedanchez/template-solidjs-library.git"
+    "url": "https://github.com/dsnchz/solid-tradingview-widgets.git"
   },
   "bugs": {
-    "url": "https://github.com/thedanchez/template-solidjs-library/issues"
+    "url": "https://github.com/dsnchz/solid-tradingview-widgets/issues"
   },
   "publishConfig": {
     "access": "public"
   },
   "files": [
     "dist"
+  ],
+  "keywords": [
+    "chart",
+    "charts",
+    "finance",
+    "financial-data",
+    "investment",
+    "solid",
+    "solid-component",
+    "solid-js",
+    "solidjs",
+    "stocks",
+    "trading",
+    "trading-platform",
+    "tradingview",
+    "tradingview-api",
+    "tradingview-chart",
+    "tradingview-widgets",
+    "typescript",
+    "widget",
+    "widgets"
   ],
   "main": "./dist/index.js",
   "module": "./dist/index.js",
@@ -78,5 +99,9 @@
   },
   "peerDependencies": {
     "solid-js": ">=1.6.0"
+  },
+  "dependencies": {
+    "@dschz/load-script": "^1.0.7",
+    "@dschz/try-catch": "^1.1.2"
   }
 }

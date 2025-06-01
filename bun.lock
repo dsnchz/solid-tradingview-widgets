@@ -3,6 +3,10 @@
   "workspaces": {
     "": {
       "name": "template-solidjs-library",
+      "dependencies": {
+        "@dschz/load-script": "^1.0.7",
+        "@dschz/try-catch": "^1.1.2",
+      },
       "devDependencies": {
         "@changesets/cli": "^2.29.3",
         "@solidjs/router": "^0.15.3",
@@ -141,6 +145,10 @@
     "@csstools/css-parser-algorithms": ["@csstools/css-parser-algorithms@3.0.4", "", { "peerDependencies": { "@csstools/css-tokenizer": "^3.0.3" } }, "sha512-Up7rBoV77rv29d3uKHUIVubz1BTcgyUK72IvCQAbfbMv584xHcGKCKbWh7i8hPrRJ7qU4Y8IO3IY9m+iTB7P3A=="],
 
     "@csstools/css-tokenizer": ["@csstools/css-tokenizer@3.0.3", "", {}, "sha512-UJnjoFsmxfKUdNYdWgOB0mWUypuLvAfQPH1+pyvRJs6euowbFkFC6P13w1l8mJyi3vxYMxc9kld5jZEGRQs6bw=="],
+
+    "@dschz/load-script": ["@dschz/load-script@1.0.7", "", {}, "sha512-nFuw/D3W7kyrHlQ4TVTwNvx8w5w6IAID0u5RrkJxaAZ5aDa1AHKKdMwEXhrU31x7rQSRfQLqx+yaOolvjPB3Og=="],
+
+    "@dschz/try-catch": ["@dschz/try-catch@1.1.2", "", {}, "sha512-nw2cthfo/HH0Shg3Luk9inJJUiyWFcfcleJ+19Q7E3Wf8cM6Vo0I+4T2HYfn7aDnnew0lsOcDwqJ9V5JdJxiyA=="],
 
     "@esbuild/aix-ppc64": ["@esbuild/aix-ppc64@0.25.0", "", { "os": "aix", "cpu": "ppc64" }, "sha512-O7vun9Sf8DFjH2UtqK8Ku3LkquL9SZL8OLY1T5NZkA34+wG3OQF7cl4Ql8vdNzM6fzBbYfLaiRLIOZ+2FOCgBQ=="],
 
