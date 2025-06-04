@@ -1,5 +1,11 @@
 # @dschz/solid-tradingview-widgets
 
+## 0.1.1
+
+### Patch Changes
+
+- adds explicit return types for jsr publishing
+
 ## 0.1.0
 
 **🎉 Initial release of solid-tradingview-widgets** - A comprehensive collection of TradingView iframe widgets for SolidJS applications
