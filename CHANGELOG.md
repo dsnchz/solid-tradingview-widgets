@@ -1,5 +1,11 @@
 # @dschz/solid-tradingview-widgets
 
+## 0.1.2
+
+### Patch Changes
+
+- fixes typecheck ci error
+
 ## 0.1.1
 
 ### Patch Changes
