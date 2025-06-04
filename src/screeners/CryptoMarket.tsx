@@ -1,6 +1,6 @@
 import { loadScript } from "@dschz/load-script";
 import { tryCatch } from "@dschz/try-catch";
-import { createEffect, mergeProps, onCleanup } from "solid-js";
+import { createEffect, type JSX, mergeProps, onCleanup } from "solid-js";
 
 import type { ColorTheme, Locale, Size } from "../types";
 
@@ -153,7 +153,7 @@ export type CryptoMarketProps = {
  * />
  * ```
  */
-export const CryptoMarket = (props: CryptoMarketProps) => {
+export const CryptoMarket = (props: CryptoMarketProps): JSX.Element => {
   let container!: HTMLDivElement;
 
   const _props = mergeProps(

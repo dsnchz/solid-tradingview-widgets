@@ -75,16 +75,25 @@ export const TopStoriesTest = () => {
   const [autosize, setAutosize] = createSignal(true);
   const [isTransparent, setIsTransparent] = createSignal(false);
 
-  const handleCustomSizeSubmit = (dimension: "width" | "height") => (e: Event) => {
+  const widthHandler = (e: Event) => {
     e.preventDefault();
-    const value = dimension === "width" ? customWidth() : customHeight();
-    const setter = dimension === "width" ? setWidth : setHeight;
-    const clearInput = dimension === "width" ? setCustomWidth : setCustomHeight;
+    const value = customWidth();
 
     const numValue = parseInt(value.trim());
     if (!isNaN(numValue) && numValue > 0) {
-      setter(numValue);
-      clearInput("");
+      setWidth(numValue);
+      setCustomWidth("");
+    }
+  };
+
+  const heightHandler = (e: Event) => {
+    e.preventDefault();
+    const value = customHeight();
+
+    const numValue = parseInt(value.trim());
+    if (!isNaN(numValue) && numValue > 0) {
+      setHeight(numValue);
+      setCustomHeight("");
     }
   };
 
@@ -302,7 +311,7 @@ export const TopStoriesTest = () => {
                       </For>
                     </div>
 
-                    <form onSubmit={handleCustomSizeSubmit("width")} class="mt-2">
+                    <form onSubmit={widthHandler} class="mt-2">
                       <div class="flex gap-2">
                         <input
                           type="number"
@@ -342,7 +351,7 @@ export const TopStoriesTest = () => {
                       </For>
                     </div>
 
-                    <form onSubmit={handleCustomSizeSubmit("height")} class="mt-2">
+                    <form onSubmit={heightHandler} class="mt-2">
                       <div class="flex gap-2">
                         <input
                           type="number"
