@@ -72,7 +72,6 @@ export const ScreenerTest = () => {
   const handleExchangeChange = (newExchange: ScreenerExchange) => {
     setExchange(newExchange);
     const columns = ScreenerColumnViews[newExchange];
-    const _screens = ScreenerScreenViews[newExchange];
 
     // Set defaults based on exchange type
     if (columns.includes("overview")) {
