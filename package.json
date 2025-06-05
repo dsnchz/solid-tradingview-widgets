@@ -1,6 +1,6 @@
 {
   "name": "@dschz/solid-tradingview-widgets",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "SolidJS bindings for TradingView Widgets — ready-to-use financial tools you can embed into your website to display market data.",
   "type": "module",
   "author": "Daniel Sanchez <dsanc89@icloud.com>",
