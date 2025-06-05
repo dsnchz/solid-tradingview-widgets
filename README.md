@@ -7,6 +7,7 @@
 [![License](https://img.shields.io/badge/license-MIT-green)](LICENSE)
 [![npm](https://img.shields.io/npm/v/@dschz/solid-tradingview-widgets?color=blue)](https://www.npmjs.com/package/@dschz/solid-tradingview-widgets)
 [![Bundle Size](https://img.shields.io/bundlephobia/minzip/@dschz/solid-tradingview-widgets)](https://bundlephobia.com/package/@dschz/solid-tradingview-widgets)
+[![JSR](https://jsr.io/badges/@dschz/solid-tradingview-widgets/score)](https://jsr.io/@dschz/solid-tradingview-widgets)
 [![CI](https://github.com/dsnchz/solid-tradingview-widgets/actions/workflows/ci.yaml/badge.svg)](https://github.com/dsnchz/solid-tradingview-widgets/actions/workflows/ci.yaml)
 
 A comprehensive collection of **embeddable TradingView iframe widgets** for [SolidJS](https://www.solidjs.com/) applications. This library provides type-safe, reactive components that embed TradingView's powerful financial widgets directly into your SolidJS applications.
